@@ -14,3 +14,13 @@ $$ linear \ w_{ij} = 1 - {|i-j|\over{R-1}}$$
 $$ quadratic \ w_{ij} = 1 - {(i-j)^2\over{(R-1)^2}}$$
 
 $$ weighted \ kappa \ score= {{\Sigma_{i=1}^{I}\Sigma_{j=1}^{J}{w_{ij}P_{ij}}-\Sigma_{i=1}^{I}\Sigma_{j=1}^{J}w_{ij}P_{i.}P_{.j}}\over{1-\Sigma_{i=1}^{I}\Sigma_{j=1}^{J}{w_{ij}P_{i.}P_{.j}}}}$$
+
+# How to use
+```python
+pred = [0, 0, 0, 1, 1, 1, 2, 2, 2, 2]
+label = [0, 0, 1, 2, 0, 1, 0, 0, 1, 2]
+
+calculate_kappa_score(pred, label)  # kappa score
+calculate_kappa_score(pred, label, 'linear')  # linear weighted kappa score
+calculate_kappa_score(pred, label, 'quadratic')  # quadratic weighted kappa score
+```
