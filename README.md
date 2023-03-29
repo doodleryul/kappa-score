@@ -1,7 +1,9 @@
 # Cohen Kappa Score
 Cohen Kappa Score - Unofficial Python Implementation using matrix multiplication
 
-The kappa score is used to compare more accurate performance on nominal and ordinal scales. I inspired by [데이터마이닝에서 Cohen의 kappa를 이용한 분류정확도 측정](https://scienceon.kisti.re.kr/srch/selectPORSrchArticle.do?cn=JAKO201306735655420&dbt=NART). More information about the formula can be found [here](https://en.wikipedia.org/wiki/Cohen%27s_kappa). 
+The kappa score is used to compare more accurate performance on nominal and ordinal scales. \
+I inspired by [데이터마이닝에서 Cohen의 kappa를 이용한 분류정확도 측정](https://scienceon.kisti.re.kr/srch/selectPORSrchArticle.do?cn=JAKO201306735655420&dbt=NART). More information about the formula can be found [here](https://en.wikipedia.org/wiki/Cohen%27s_kappa). \
+I wrote about the implementation on [my blog](https://doodleryul.github.io/dev/2022-12-09-kappa-score/).
 
 # Equation
 #### Kappa Score
